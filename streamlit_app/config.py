@@ -11,16 +11,16 @@ TITLE = "Classification de Plants"
 
 TEAM_MEMBERS = [
     Member(
-        name="Fayçal D",
-        #linkedin_url="https://www.linkedin.com/in/charlessuttonprofile/",
-        github_url="https://github.com/faycal77"
+        name="Fayçal D.",
+        linkedin_url="https://www.linkedin.com/in/charlessuttonprofile/",
+        github_url="https://github.com/faycal77",
     ),
-    Member("Fayçal A"),
+    #Member("Fayçal D."),
     Member(
-        name="Guillaume A",
-        github_url="https://github.com/williamapc"
-    ),
-    Member("Guillaume As")
+        name="Guillaume A.",
+        github_url="https://github.com/williamapc",
+    )
+    #Member("Guillaume A")
 ]
 
-PROMOTION = "Promotion  Data Scientist - Mars 2026"
+PROMOTION = "Promotion Data Scientist - Mars 2026"

@@ -19,6 +19,15 @@ with open("streamlit_app/style.css", "r") as f:
     style = f.read()
 
 st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
+st.markdown(
+    r"""
+    <style>
+    .stDeployButton {
+            visibility: hidden;
+        }
+    </style>
+    """, unsafe_allow_html=True
+)
 
 
 # TODO: add new and/or renamed tab in this ordered dict by
@@ -38,7 +47,7 @@ def run():
         "https://dst-studio-template.s3.eu-west-3.amazonaws.com/logo-datascientest.png",
         width=200,
     )
-    tab_name = st.sidebar.radio("", list(TABS.keys()), 0)
+    tab_name = st.sidebar.radio("tabs", list(TABS.keys()), 0)
     st.sidebar.markdown("---")
     st.sidebar.markdown(f"## {config.PROMOTION}")
 
