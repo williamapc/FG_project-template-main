@@ -7,7 +7,7 @@ Config file for Streamlit App
 from streamlit_app.member import Member
 
 
-TITLE = "My Awesome App"
+TITLE = "Classification de Plants"
 
 TEAM_MEMBERS = [
     Member(
@@ -15,12 +15,12 @@ TEAM_MEMBERS = [
         #linkedin_url="https://www.linkedin.com/in/charlessuttonprofile/",
         github_url="https://github.com/faycal77"
     ),
-    Member("Jane Doe"),
+    Member("Fayçal A"),
     Member(
         name="Guillaume A",
         github_url="https://github.com/williamapc"
     ),
-    Member("Jane Doe")
+    Member("Guillaume As")
 ]
 
-PROMOTION = "Promotion Bootcamp Data Scientist - April 2021"
+PROMOTION = "Promotion  Data Scientist - Mars 2026"
